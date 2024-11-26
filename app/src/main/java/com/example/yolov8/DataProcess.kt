@@ -23,8 +23,8 @@ class DataProcess(val context: Context) {
         const val BATCH_SIZE = 1
         const val INPUT_SIZE = 640
         const val PIXEL_SIZE = 3
-        const val FILE_NAME = "yolov8n.onnx"
-        const val LABEL_NAME = "yolov8n.txt"
+        const val FILE_NAME = "yolov11n.onnx"
+        const val LABEL_NAME = "yolov11n.txt"
     }
 
     fun imageToBitmap(imageProxy: ImageProxy): Bitmap {
